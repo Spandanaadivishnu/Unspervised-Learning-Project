@@ -232,5 +232,3 @@ Colour.intensity <- c("Highest","Medium","Lowest")
 df<-data.frame(Cluster,Alcohol,Proline,Colour.intensity)
 df %>% kable()
 
-#Comparing kmeans of reduced features and kmeans with all features
-xtabs(~data.clust.reduced.kmeans$cluster+data.clust.kmeans$cluster)
